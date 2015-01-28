@@ -1,0 +1,107 @@
+[
+  {
+    "type": "instruction",
+    "title": "Vanilla",
+    "text": "The first level of this demo is just the basic type of level",
+    "button": "Continue"
+  },
+  {
+    "type": "level",
+    "number": 1,
+    "mode": "vanilla",
+    "contents": [ 9,7,8,8,5,6,9,8,7 ],
+    "initialSelected": { "x":0, "y":1 }
+  },
+  {
+    "type": "instruction",
+    "title": "B&W",
+    "text": "Now for the black and white variant",
+    "button": "Continue"
+  },
+  {
+    "type": "level",
+    "number": 2,
+    "mode": "b&w",
+    "contents": [ 5,0,2,6,7,4,5,1,2 ],
+    "colors": ["b","w","w","b","b","b","b","w","w"],
+    "initialSelected": { "x":1, "y":0 }
+  },
+  {
+    "type": "instruction",
+    "title": "Add 2",
+    "text": "Each cell in this level will increase by 2",
+    "button": "Continue"
+  },
+  {
+    "type": "level",
+    "number": 3,
+    "mode": "add2",
+    "contents": [5,9,15,7,13,15,11,13,13],
+    "initialSelected": { "x": 1, "y": 0 }
+  },
+  {
+    "type": "instruction",
+    "title": "Alternating add",
+    "text": "In this level the amount added alternates between 1 and 2",
+    "button": "Continue"
+  },
+  {
+    "type": "level",
+    "number": 4,
+    "mode": "addalternate",
+    "contents": [ 7,4,7,2,4,4,7,4,5 ],
+    "initialSelected": { "x":0, "y":1 }
+  },
+  {
+    "type": "instruction",
+    "title": "Landmine",
+    "text": "These levels have squares that change color when stepped on",
+    "button": "Continue"
+  },
+  {
+    "type": "level",
+    "number": 5,
+    "mode": "landmine",
+    "contents": [ 8,10,9,9,11,9,8,8,8 ],
+    "colors": ["w","b","w","b","b","w","w","b","b"],
+    "initialSelected": { "x":2, "y":1 },
+    "solution": ["l","u","r","d","d","u","l","l","r","l","d","r","u","u","r","l","l"]
+  },
+  {
+    "type": "instruction",
+    "title": "Explode",
+    "text": "These levels switch the colors of the square stepped on, as well as the 4 surrounding squares",
+    "button": "Continue"
+  },
+  {
+    "type": "level",
+    "number": 6,
+    "mode": "explode",
+    "contents": [ 11,14,12,12,13,11,9,10,10 ],
+    "colors": ["w","w","w","w","w","w","b","b","w"],
+    "initialSelected": { "x":1, "y":1 },
+    "solution": ["l","r","r","u","l","r","l","d","u","l","d","r","d","r","u","u","l","d","l","u","r"]
+  },
+  {
+    "type": "instruction",
+    "title": "Switch",
+    "text": "The colors of certain cells in this type switch colors every few seconds",
+    "button": "Continue"
+  },
+  {
+    "type": "level",
+    "number": 7,
+    "mode": "switch",
+    "contents": [ 7,4,7,8,6,5,5,3,6 ],
+    "colors": ["b","w","w","b","b","b","b","w","w"],
+    "altcolors": ["w","w","b","b","w","w","w","b","w"],
+    "initialSelected": { "x":0, "y":2 },
+    "solution": ["r","u","u","wait","d","r","u","wait","l","l","d","wait","d","u","r","wait","d","u","d"]
+  },
+  {
+    "type": "instruction",
+    "title": "The End",
+    "text": "That concludes the alternative mechanics demo. Thanks for your interest",
+    "button": "%fb%"
+  }
+]
