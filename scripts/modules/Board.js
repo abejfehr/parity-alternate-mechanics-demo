@@ -171,12 +171,12 @@ var Board = (function() {
         }
       }
       else if(level.mode.indexOf('landmine') > -1) {
-        cell(sel.x, sel.y, cell(sel.x, sel.y) - 1);
+        cell(sel.x, sel.y, cell(sel.x, sel.y) + 1);
 
         swapColor(sel.x, sel.y);
       }
       else if(level.mode.indexOf('explode') > -1) {
-        cell(sel.x, sel.y, cell(sel.x, sel.y) - 1);
+        cell(sel.x, sel.y, cell(sel.x, sel.y) + 1);
 
         swapColor(sel.x, sel.y);
 
