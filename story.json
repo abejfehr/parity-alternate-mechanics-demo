@@ -62,10 +62,10 @@
     "type": "level",
     "number": 5,
     "mode": "landmine",
-    "contents": [ 8,10,9,9,11,9,8,8,8 ],
-    "colors": ["w","b","w","b","b","w","w","b","b"],
-    "initialSelected": { "x":2, "y":1 },
-    "solution": ["l","u","r","d","d","u","l","l","r","l","d","r","u","u","r","l","l"]
+    "contents": [ 8,7,8,7,9,7,9,8,8 ],
+    "colors": ["w","w","w","w","b","w","b","w","w"],
+    "initialSelected": { "x":1, "y":1 },
+    "solution": ["d","u","r","u","d","l","l","d","r","u","u","r","d"]
   },
   {
     "type": "instruction",
@@ -77,10 +77,10 @@
     "type": "level",
     "number": 6,
     "mode": "explode",
-    "contents": [ 11,14,12,12,13,11,9,10,10 ],
-    "colors": ["w","w","w","w","w","w","b","b","w"],
-    "initialSelected": { "x":1, "y":1 },
-    "solution": ["l","r","r","u","l","r","l","d","u","l","d","r","d","r","u","u","l","d","l","u","r"]
+    "contents": [ 8,6,10,6,6,7,8,10,10 ],
+    "colors": ["b","w","w","b","b","w","w","b","b"],
+    "initialSelected": { "x":2, "y":2 },
+    "solution": ["u","l","l","r","u","d","r","d","u","l","l","u","r","d","d","l","u","r","r","u","l","d"]
   },
   {
     "type": "instruction",
